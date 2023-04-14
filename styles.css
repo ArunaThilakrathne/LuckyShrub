@@ -1,0 +1,128 @@
+* {
+    font-family: 'Markazi Text', serif;
+   
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+header {
+    background-color:white;
+    height: 6rem;
+    width: 90%;
+    text-align: right;
+    overflow: hidden;
+    opacity: 1;
+    z-index: 1;
+    
+}
+.navbar{
+   width: 100%;
+   margin-bottom: 10px;;
+}
+.navbar img{
+    float: left;
+    height: 5.2rem;
+    width:3rem;
+    padding-left: 2rem;
+}
+.navbar ul{  
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navbar li{
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;     
+    
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    text-align: right;
+}
+.navbar li a :visited{
+    color: green;
+}
+.navbar li a:hover{
+    color: green;
+}
+.navbar li a:active{
+    color: green;
+}
+section{
+    display: flex;
+}
+.section1{  
+    background-color: rgba(202, 159, 21, 0.452);
+    border-radius: 0.5rem;  
+}
+.section1 h1{
+    text-align: center;
+}
+.section1 p{
+    font-size: 2rem;
+   
+}
+
+.section2 article{
+
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.section2 p{
+    font-size: 1.5rem;
+}
+article{
+
+    padding: 1rem;
+    flex: 1;
+}
+article img{
+    background-size: cover;
+}
+article h2{
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer div{
+    margin-top: 1rem;
+    flex:1;
+}
+.first{
+    background-image: url(./images/Asset\ 5.png);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second{
+    background-image: url(./images/Asset\ 5.png);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third{
+    background-image: url(./images/Asset\ 5.png);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
